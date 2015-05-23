@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
   get '/about' => 'pages#about'
+  # get '/contact' => 'pages#contact' Is this route for contact? Why it wasn't working last time? 
   root 'pages#home'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
